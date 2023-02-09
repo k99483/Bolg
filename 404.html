@@ -54,6 +54,16 @@
       font-family: monospace;
       font-weight: bold;
     }
+
+    .text h4 {
+      color: white;
+      margin-left: 30px;
+      font-size: 2em;
+      margin-top: -20px;
+      font-family: monospace;
+      font-weight: bold;
+    }
+
     .torch {
       margin: -150px 0 0 -150px;
       width: 200px;
@@ -79,8 +89,9 @@
   <body>
     <div class="text">
       <h1>404</h1>
-      <h2>123123</h2>
+      <h2>噢! 糟糕!</h2>
       <h3>找不到您目前存取的頁面，因為這裡實在太黑了</h3>
+      <h3>預計將在約 <span id="timeout">10</span> 秒後返回首頁。</h3>
     </div>
     <div class="torch"></div>
   </body>
@@ -91,5 +102,19 @@
         left: event.pageX,
       });
     });
+
+    let countTime = 10;
+
+    function count() {
+      document.getElementById("timeout").textContent = countTime;
+      countTime -= 1;
+      if (countTime === 0) {
+        location.href = "https://cooperwu.com";
+      }
+      setTimeout(() => {
+        count();
+      }, 1000);
+    }
+    count();
   </script>
 </html>
