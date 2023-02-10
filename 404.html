@@ -72,6 +72,7 @@
       border-radius: 50%;
       position: fixed;
       background: rgba(0, 0, 0, 0.3);
+      pointer-events: none;
     }
     .torch::after {
       content: "";
@@ -83,26 +84,25 @@
       left: 0px;
       box-shadow: inset 0 0 40px 2px #000, 0 0 20px 4px rgba(13, 13, 10, 0.2);
     }
+    a {
+      color: white;
+    }
   </style>
   <body>
     <div class="text">
       <h1>404</h1>
       <h2>噢! 糟糕!</h2>
-      <h3>找不到您目前存取的頁面，因為這裡實在太黑了</h3>
-      <h4>您可以點擊滑鼠返回首頁。</h4>
+      <h3>找不到您目前存取的頁面，因為這裡太黑了</h3>
+      <h4>您可以點擊 <a href="https://www.cooperwu.com">這裡</a> 返回首頁。</h4>
     </div>
     <div class="torch"></div>
   </body>
   <script>
-    $(document)
-      .mousemove(function (event) {
-        $(".torch").css({
-          top: event.pageY,
-          left: event.pageX,
-        });
-      })
-      .click(function () {
-        location.href = "https://cooperwu.com";
+    $(document).mousemove(function (event) {
+      $(".torch").css({
+        top: event.pageY,
+        left: event.pageX,
       });
+    });
   </script>
 </html>
