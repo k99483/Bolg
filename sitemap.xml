@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://k99483.github.io/2023/02/09/Second-Post/</loc>
+    <loc>https://cooperwu.com/2023/02/09/Second-Post/</loc>
     
     <lastmod>2023-02-09</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://k99483.github.io/2022/08/08/My-New-Post/</loc>
+    <loc>https://cooperwu.com/2022/08/08/My-New-Post/</loc>
     
     <lastmod>2023-02-09</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://k99483.github.io/categories/index.html</loc>
+    <loc>https://cooperwu.com/categories/index.html</loc>
     
     <lastmod>2022-08-11</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://k99483.github.io/tags/index.html</loc>
+    <loc>https://cooperwu.com/tags/index.html</loc>
     
     <lastmod>2022-08-11</lastmod>
     
@@ -39,7 +39,7 @@
   
 
   <url>
-    <loc>https://k99483.github.io/</loc>
+    <loc>https://cooperwu.com/</loc>
     <lastmod>2023-02-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -47,7 +47,7 @@
 
   
   <url>
-    <loc>https://k99483.github.io/tags/SQL/</loc>
+    <loc>https://cooperwu.com/tags/SQL/</loc>
     <lastmod>2023-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -56,14 +56,14 @@
 
   
   <url>
-    <loc>https://k99483.github.io/categories/Apple/</loc>
+    <loc>https://cooperwu.com/categories/Apple/</loc>
     <lastmod>2023-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://k99483.github.io/categories/Apple/Ball/</loc>
+    <loc>https://cooperwu.com/categories/Apple/Ball/</loc>
     <lastmod>2023-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
