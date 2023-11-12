@@ -31,7 +31,7 @@
 
   <url>
     <loc>https://cooperwu.com/</loc>
-    <lastmod>2023-11-01</lastmod>
+    <lastmod>2023-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -39,7 +39,7 @@
   
   <url>
     <loc>https://cooperwu.com/tags/SQL/</loc>
-    <lastmod>2023-11-01</lastmod>
+    <lastmod>2023-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -48,14 +48,14 @@
   
   <url>
     <loc>https://cooperwu.com/categories/Apple/</loc>
-    <lastmod>2023-11-01</lastmod>
+    <lastmod>2023-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://cooperwu.com/categories/Apple/Ball/</loc>
-    <lastmod>2023-11-01</lastmod>
+    <lastmod>2023-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
